@@ -1,0 +1,269 @@
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EventPlanning.dll.config
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EventPlanning.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EventPlanning.pdb
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csc.exe
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csc.exe.config
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csc.rsp
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csi.exe
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csi.exe.config
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\csi.rsp
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Managed.Core.targets
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.AppContext.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Collections.Immutable.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Console.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Globalization.Calendars.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.IO.Compression.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.IO.FileSystem.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Net.Http.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Net.Sockets.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Reflection.Metadata.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.ValueTuple.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XmlDocument.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XPath.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\vbc.exe
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\vbc.exe.config
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\vbc.rsp
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\VBCSCompiler.exe
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\roslyn\VBCSCompiler.exe.config
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Antlr3.Runtime.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EntityFramework.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EntityFramework.SqlServer.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Core.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Cookies.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Facebook.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Google.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.OAuth.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Twitter.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Web.Infrastructure.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Newtonsoft.Json.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Owin.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Helpers.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Mvc.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Optimization.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Razor.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Deployment.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Razor.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\WebGrease.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Helpers.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Mvc.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Optimization.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.Razor.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Deployment.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Razor.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Newtonsoft.Json.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Antlr3.Runtime.pdb
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EntityFramework.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\EntityFramework.SqlServer.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Core.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Facebook.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Cookies.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Google.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Twitter.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.OAuth.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.Helpers.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.Mvc.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.Optimization.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.Razor.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\EntityFramework.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csproj.CoreCompileInputs.cache
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csproj.CopyComplete
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.pdb
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ClosedXML.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\DocumentFormat.OpenXml.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ExcelNumberFormat.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\System.IO.Packaging.dll
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ClosedXML.pdb
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ClosedXML.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\DocumentFormat.OpenXml.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\bin\ExcelNumberFormat.xml
+C:\D\1_MyProject\Event planning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csprojAssemblyReference.cache
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EventPlanning.dll.config
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EventPlanning.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EventPlanning.pdb
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csc.exe
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csc.exe.config
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csc.rsp
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csi.exe
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csi.exe.config
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\csi.rsp
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Managed.Core.targets
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.AppContext.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Collections.Immutable.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Console.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Globalization.Calendars.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.IO.Compression.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.IO.FileSystem.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Net.Http.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Net.Sockets.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Reflection.Metadata.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.ValueTuple.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XmlDocument.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XPath.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\vbc.exe
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\vbc.exe.config
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\vbc.rsp
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\VBCSCompiler.exe
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\roslyn\VBCSCompiler.exe.config
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Antlr3.Runtime.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ClosedXML.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\DocumentFormat.OpenXml.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EntityFramework.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EntityFramework.SqlServer.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ExcelNumberFormat.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Core.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Cookies.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Facebook.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Google.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.OAuth.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Twitter.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Web.Infrastructure.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Newtonsoft.Json.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Owin.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.IO.Packaging.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Helpers.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Mvc.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Optimization.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Razor.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Deployment.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Razor.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\WebGrease.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ClosedXML.pdb
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ClosedXML.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\DocumentFormat.OpenXml.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ExcelNumberFormat.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Helpers.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Mvc.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Optimization.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.Razor.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Deployment.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\System.Web.WebPages.Razor.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Newtonsoft.Json.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Antlr3.Runtime.pdb
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EntityFramework.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\EntityFramework.SqlServer.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Core.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Facebook.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Cookies.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Google.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.Twitter.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.Owin.Security.OAuth.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.Helpers.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.Mvc.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.Optimization.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.Razor.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\EntityFramework.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csproj.CoreCompileInputs.cache
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csproj.CopyComplete
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.dll
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.pdb

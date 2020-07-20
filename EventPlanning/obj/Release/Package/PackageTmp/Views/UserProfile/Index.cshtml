@@ -1,0 +1,65 @@
+﻿@model EventPlanning.Models.UserProfile
+
+@{
+    ViewBag.Title = "Личные данные";
+}
+
+<h2>Личные данные</h2>
+
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName) :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name) :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MiddleName) :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MiddleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age) :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+    </dl>
+    <div>
+        @Html.ActionLink("Редактировать", "Edit", "UserProfile", new { id = Model.Id }, new { @class = "btn btn-warning" })
+    </div>
+</div> 
+
+
+<h4>Экспорт Excel файла</h4>
+<div>
+    <a href="@Url.RouteUrl("Default", new { controller = "UserProfile", action = "Export" })">Скачать файл для заполнения</a>
+</div>
+
+<h4>Импорт Excel файла с данными</h4>
+<div>
+    @using (Html.BeginForm("Import", "UserProfile", FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-excel" }))
+    {
+        <p>Загрузите Excel-файл:</p>
+        <input type="file" name="fileExcel" id="fileExcel" class="btn btn-default"/>
+        <div>
+            <input type="submit" value="Загрузить" class="btn btn-success" />
+        </div>
+    }
+</div>

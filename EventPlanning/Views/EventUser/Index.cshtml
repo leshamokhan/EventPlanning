@@ -1,0 +1,102 @@
+﻿@model IEnumerable<EventPlanning.Models.Event>
+
+@{
+    ViewBag.Title = "Доступные мероприятия";
+}
+
+    <h2>Доступные мероприятия</h2>
+
+@if (ViewBag.Message == true)
+{
+    <h4>Заполните @Html.ActionLink("личные данные", "Index", "UserProfile")</h4>
+}
+else
+{  
+    <div class="row" id="divView">
+
+    </div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            info();
+        };
+
+        function info() {
+            $.ajax({
+                type: "GET",
+                url: "EventUser/GetAll",
+                dataType: 'json',
+                cache: false,
+                success: function (result) {
+                    //console.log(result);
+
+                    if (result.length != 0) {
+                        $('#divView').empty();
+                        var trHTML = '';
+                        $.each(result, function (i, item) {
+                            trHTML += '<div class="col-md-4" style="align-items:flex-start;  background-color:lightgrey;  margin:3px" ><p> Мероприятие : ' + item.Name + '</p><p>Организатор : ' + item.UserCreate + '</p><p>Дата : ' + item.Date + '</p><p>Время : ' + item.Time + '</p><p>Кол-во участников : ' + item.CountNow + ' из ' + item.Count + '</p>';
+                            $.each(item.Fields, function (f, Field) {
+                                trHTML += '<p>' + Field.Name + ' : ' + Field.Description + '</p>';
+                            });
+                            trHTML += '<p>';
+
+                            if (item.State == false && item.Count > item.CountNow) {
+                                trHTML += '<input type="submit" value="Подписаться" onclick="Subscribe(' + item.Id + ')" class="btn btn-success">';
+                            }
+                            else
+                            if (item.State == true) {
+                                trHTML += '<input type="submit" value="Отписаться" onclick="UnSubscribe(' + item.Id + ')" class="btn btn-danger">';
+                            }                            
+                            //if (item.State == true) {
+                            //    trHTML += '<input type="submit" value="Отписаться" onclick="UnSubscribe(' + item.Id + ')" class="btn btn-danger">';
+                            //}
+                            //else {
+                            //    trHTML += '<input type="submit" value="Подписаться" onclick="Subscribe(' + item.Id + ')" class="btn btn-success">';
+                            //}
+                            trHTML += '</p>';
+                            trHTML += '</div>';
+                        });
+                        $('#divView').append(trHTML);
+                    }
+                    else {
+                        return;
+                    }
+                },
+                error: function ajaxError(result) {
+                }
+                , timeout: 1000000
+            });
+        };
+
+        function Subscribe(id) {
+            $.ajax({
+                type: "POST",
+                url: "EventUser/Subscribe/" + id,
+                dataType: 'json',
+                cache: false,
+                success: function (result) {
+                    //console.log(result);
+                    info();
+                },
+                error: function ajaxError(result) {
+                }
+            });
+        };
+
+        function UnSubscribe(id) {
+            $.ajax({
+                type: "POST",
+                url: "EventUser/UnSubscribe/" + id,
+                dataType: 'json',
+                cache: false,
+                success: function (result) {
+                    //console.log(result);
+                    info();
+                },
+                error: function ajaxError(result) {
+                }
+            });
+        };
+    </script>
+
+}

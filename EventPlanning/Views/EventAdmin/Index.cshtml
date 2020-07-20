@@ -1,0 +1,83 @@
+﻿@model IEnumerable<EventPlanning.Models.Event>
+
+@{
+    ViewBag.Title = "Мероприятия";
+}
+
+<h2>Мероприятия</h2>
+
+@if (ViewBag.Message == true)
+{
+    <h4>Заполните @Html.ActionLink("личные данные", "Index", "UserProfile")</h4>
+}
+else
+{
+    <p>
+        @Html.ActionLink("Запланировать", "Create", "Controller", new { @class = "btn btn-success" })
+    </p>
+
+    <div class="row" id="divView">
+
+    </div>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+            info();
+        };
+
+        function info() {
+            $.ajax({
+                type: "GET",
+                url: "EventAdmin/GetAll",
+                dataType: 'json',
+                cache: false,
+                success: function (result) {
+                    //console.log(result);
+
+                    if (result.length != 0) {
+                        $('#divView').empty();
+                        var trHTML = '';
+                        $.each(result, function (i, item) {
+                            trHTML += '<div class="col-md-4" style="align-items:flex-start;  background-color:lightgrey;  margin:3px"><p> Название мероприятия : ' + item.Name + '</p><p>Дата и Время : ' + item.DateTime + '</p><p>Кол-во участников : ' + item.CountNow + ' из ' + item.Count + '</p>';
+                            $.each(item.Fields, function (f, Field) {
+                                trHTML += '<p>' + Field.Name + ' : ' + Field.Description + '</p>';
+                            });
+
+                            if (item.UserProfiles.length > 0) {
+                                trHTML += '<p>Список участников : </p>';
+                                $.each(item.UserProfiles, function (u, UserProfile) {
+                                    trHTML += '<p>' + UserProfile.LastName + ' ' + UserProfile.Name + ' ' + UserProfile.MiddleName + '</p>';
+                                });
+                            }
+                            
+                            trHTML += '<p><input type="submit" value="Отменить" onclick="Delete(' + item.Id + ')" class="btn btn-danger"></p></div>';
+                        });
+                        $('#divView').append(trHTML);
+                    }
+                    else {
+                        return;
+                    }
+                },
+                error: function ajaxError(result) {
+                }
+                , timeout: 1000000
+            });
+        };
+
+        function Delete(id) {
+            $.ajax({
+                type: "POST",
+                url: "EventAdmin/Delete/" + id,
+                dataType: 'json',
+                cache: false,
+                success: function (result) {
+                    //console.log(result);
+                    info();
+                },
+                error: function ajaxError(result) {
+                }
+            });
+        };
+    </script>
+}

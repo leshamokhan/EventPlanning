@@ -1,0 +1,111 @@
+﻿@model EventPlanning.Models.Event
+
+@{
+    ViewBag.Title = "Добавление мероприятия";
+}
+
+    <h2>Добавить мероприятия</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Мероприятия</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
+                <label for="example-date-input" class="control-label col-md-2">Дата</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="date" id="Date" name="Date" placeholdere="Date">
+                    @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                </div>
+        </div>*@
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", @type = "date" , @name = "Date"} })
+                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Time, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Time, new { htmlAttributes = new { @class = "form-control" , @type = "time"} })
+                @Html.ValidationMessageFor(model => model.Time, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Count, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Count, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Count, "", new { @class = "text-danger" })
+            </div>
+        </div>     
+
+        <div id="divBlock" class="form-group">
+            <label class = "control-label col-md-2">Доп. поле</label>
+            <div class="divItem col-md-10" >
+                <input type="text" name="Fields[0].Name" class="form-control" placeholder="Название">
+                <input type="text" name="Fields[0].Description" class="form-control" placeholder="Описание">
+                <br><br>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" value="Добавить поле" onclick="add()" class="btn btn-default">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Сохранить" class="btn btn-success" />
+                @Html.ActionLink("Назад", "Index", "Controller", new { @class = "btn btn-warning" })
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        var today = new Date();
+        $("#Date").prop("min", `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, "0")}-${today.getDate().toString().padStart(2, "0")}`);
+
+        var count = 0;
+
+        function add() {
+            console.log('add');
+            count++;
+            var html2Add = /*"<div class='divItem col-md-10'>" +*/
+                "<label class = 'control-label col-md-2'>Доп. поле " + count + "</label>" +
+                "<div class='divItem col-md-10'>" +
+                "<input type='text' name='Fields[" + count + "].Name' class='form-control' placeholder='Название'></input>" +
+                "<input type='text' name='Fields[" + count + "].Description' class='form-control' placeholder='Описание'></input>" +
+                "<br><br></div>";
+            $('#divBlock').append(html2Add);
+            console.log(count);
+        }
+    </script>
+
+}
