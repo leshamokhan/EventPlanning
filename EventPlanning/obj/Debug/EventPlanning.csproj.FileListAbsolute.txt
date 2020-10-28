@@ -267,3 +267,4 @@ C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanni
 C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csproj.CopyComplete
 C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.dll
 C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.pdb
+C:\D\1_MyProject\Eventplanning\EventPlanning\EventPlanning\obj\Debug\EventPlanning.csprojAssemblyReference.cache

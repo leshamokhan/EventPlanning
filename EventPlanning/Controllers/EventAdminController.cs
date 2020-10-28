@@ -58,12 +58,10 @@ namespace EventPlanning.Controllers
                 var userProfile = db.UserProfiles.Where(s => s.UserID == userIdentityID).FirstOrDefault();
                 var view = db.Events.Include(m => m.Fields).Include(m => m.UserProfiles).Where(m => m.UserProfileCreateId == userProfile.Id).ToList();
                 return Json((from obj in view select new { Id = obj.Id, Name = obj.Name, DateTime = obj.Date.ToShortDateString() + " " + obj.Time.ToShortTimeString(), Count = obj.Count, CountNow = obj.UserProfiles.Count,  Fields = from o in obj.Fields select new { Name = o.Name, Description = o.Description }, UserProfiles = from o in obj.UserProfiles select new { Name = o.Name, LastName = o.LastName, MiddleName = o.MiddleName } }), JsonRequestBehavior.AllowGet);
-
             }
             catch
             {
                 return Json(null, JsonRequestBehavior.AllowGet);
-
             }
         }
 
@@ -111,26 +109,9 @@ namespace EventPlanning.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             return View(@event);
         }
 
-        
-
-        // GET: EventAdmin/Delete/5
-        //public ActionResult Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    Event @event = db.Events.Find(id);
-        //    if (@event == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(@event);
-        //}
 
         // POST: EventAdmin/Delete/5
         [HttpPost, ActionName("Delete")]

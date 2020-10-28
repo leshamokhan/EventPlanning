@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Event Planning</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="icon" href="~/Content/images/icons/icon-72x72.png" type="image/x-icon">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="apple-touch-icon" href="~/Content/images/icons/icon-152x152.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("EventPlanning", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (ViewContext.HttpContext.User.IsInRole("Администратор"))
+                    {
+                        <li>@Html.ActionLink("Мероприятия", "Index", "EventAdmin")</li>
+                    }
+                    @if (ViewContext.HttpContext.User.IsInRole("Пользователь"))
+                    {
+                        <li>@Html.ActionLink("Мероприятия", "Index", "EventUser")</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer class="text-center">
+            <p>&copy; @DateTime.Now.Year - Event Planning</p>
+            <p><a href="https://github.com/leshamokhan"><span class="icon-github"></span> leshamokhan</a></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/serviceworker.js')
+                .then(function () { console.log('Service Worker Registered'); });
+        }
+    </script>
+</body>
+</html>

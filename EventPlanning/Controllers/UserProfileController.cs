@@ -21,14 +21,8 @@ namespace EventPlanning.Controllers
         // GET: UserProfile
         public ActionResult Index()
         {
-
             string UserIdentityId = User.Identity.GetUserId().ToString();
-
             UserProfile userProfile = db.UserProfiles.Where(m => m.UserID == UserIdentityId).FirstOrDefault();
-
-
-
-            //var userProfiles = db.UserProfiles.Include(u => u.User);
             return View(userProfile);
         }
 
@@ -45,7 +39,6 @@ namespace EventPlanning.Controllers
             {
                 return HttpNotFound();
             }
-            //ViewBag.UserID = new SelectList(db.ApplicationUsers, "Id", "Email", userProfile.UserID);
             return View(userProfile);
         }
 
@@ -64,10 +57,8 @@ namespace EventPlanning.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            //ViewBag.UserID = new SelectList(db.ApplicationUsers, "Id", "Email", userProfile.UserID);
             return View(userProfile);
         }
-
 
         protected override void Dispose(bool disposing)
         {
@@ -78,38 +69,31 @@ namespace EventPlanning.Controllers
             base.Dispose(disposing);
         }
 
-
         [HttpPost]
         [ValidateInput(false)]
         public ActionResult Import(HttpPostedFileBase fileExcel)
         {
-            if (ModelState.IsValid)
+            if (fileExcel != null)
             {
                 string UserIdentityId = User.Identity.GetUserId().ToString();
                 UserProfile userProfile = db.UserProfiles.Where(m => m.UserID == UserIdentityId).FirstOrDefault();
-
+                
                 using (XLWorkbook workBook = new XLWorkbook(fileExcel.InputStream, XLEventTracking.Disabled))
                 {
                     string LastName = workBook.Worksheet(1).Column(2).Cell(1).Value.ToString();
                     string Name = workBook.Worksheet(1).Column(2).Cell(2).Value.ToString();
                     string MiddleName = workBook.Worksheet(1).Column(2).Cell(3).Value.ToString();
                     int Age = Convert.ToInt32(workBook.Worksheet(1).Column(2).Cell(4).Value.ToString());
-
                     userProfile.Name = Name;
                     userProfile.LastName = LastName;
                     userProfile.MiddleName = MiddleName;
                     userProfile.Age = Age;
                 }
-
                 db.Entry(userProfile).State = EntityState.Modified;
                 db.SaveChanges();
-            }
-            return RedirectToAction("Index","UserProfile");
+            }            
+            return RedirectToAction("Index", "UserProfile");            
         }
-
-
-
-
 
         public ActionResult Export()
         {
@@ -122,8 +106,7 @@ namespace EventPlanning.Controllers
                 worksheet.Cell("A3").Value = "Отчество";
                 worksheet.Cell("A4").Value = "Возраст";
                 worksheet.Column(1).Style.Font.Bold = true;
-
-
+                
                 worksheet.Cells("A1:B4").Style.Border.RightBorder = XLBorderStyleValues.Thin;
                 worksheet.Cells("A1:B4").Style.Border.LeftBorder = XLBorderStyleValues.Thin;
                 worksheet.Cells("A1:B4").Style.Border.TopBorder = XLBorderStyleValues.Thin;
@@ -142,8 +125,5 @@ namespace EventPlanning.Controllers
                 }
             }
         }
-
-
-
     }
 }

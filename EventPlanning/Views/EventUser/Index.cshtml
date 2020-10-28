@@ -20,7 +20,6 @@ else
         window.onload = function () {
             info();
         };
-
         function info() {
             $.ajax({
                 type: "GET",
@@ -28,8 +27,6 @@ else
                 dataType: 'json',
                 cache: false,
                 success: function (result) {
-                    //console.log(result);
-
                     if (result.length != 0) {
                         $('#divView').empty();
                         var trHTML = '';
@@ -46,13 +43,7 @@ else
                             else
                             if (item.State == true) {
                                 trHTML += '<input type="submit" value="Отписаться" onclick="UnSubscribe(' + item.Id + ')" class="btn btn-danger">';
-                            }                            
-                            //if (item.State == true) {
-                            //    trHTML += '<input type="submit" value="Отписаться" onclick="UnSubscribe(' + item.Id + ')" class="btn btn-danger">';
-                            //}
-                            //else {
-                            //    trHTML += '<input type="submit" value="Подписаться" onclick="Subscribe(' + item.Id + ')" class="btn btn-success">';
-                            //}
+                            }
                             trHTML += '</p>';
                             trHTML += '</div>';
                         });
@@ -75,7 +66,6 @@ else
                 dataType: 'json',
                 cache: false,
                 success: function (result) {
-                    //console.log(result);
                     info();
                 },
                 error: function ajaxError(result) {
@@ -90,7 +80,6 @@ else
                 dataType: 'json',
                 cache: false,
                 success: function (result) {
-                    //console.log(result);
                     info();
                 },
                 error: function ajaxError(result) {
@@ -98,5 +87,4 @@ else
             });
         };
     </script>
-
 }
